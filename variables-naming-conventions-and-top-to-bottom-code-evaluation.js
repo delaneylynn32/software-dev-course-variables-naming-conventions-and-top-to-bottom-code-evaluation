@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let Name = "Alice";
+let Count = 5;
+let Cost= 20;
+let Store Name= "Waly World"; // new variable
+let payment= "cash"; // new variable
+let reciept message = Name + " bought " + Count + " items from" + Store Name + "for $" + Cost + "using a" +payment + ".";
 
-console.log(d);
+console.log(recieptmessage);
